@@ -161,7 +161,6 @@ nav {
 .header__content {
   max-width: 600px;
   margin-left: auto;
-  z-index: 30;
 }
 
 .header__content h4 {
@@ -281,7 +280,7 @@ nav {
 
 .product__rating {
   margin-bottom: 5px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: goldenrod;
 }
 

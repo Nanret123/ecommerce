@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# npm test
+
+# Run ESLint and auto-fix issues
+npx eslint . --fix
+
+# Run TypeScript type checking
+npx tsc --noEmit
